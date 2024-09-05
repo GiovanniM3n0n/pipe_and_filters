@@ -1,0 +1,21 @@
+id,nome,idade,genero,diagnostico,alta
+1,Carlos Silva,45,Masculino,Pneumonia,Nao
+2,Ana Souza,33,Feminino,Gripe,Sim
+3,João Lima,67,Masculino,Diabetes,Nao
+4,Marina Costa,29,Feminino,Fratura Simples,Sim
+5,Rafael Torres,50,Masculino,Covid-19,Nao
+6,Juliana Alves,40,Feminino,Bronquite,Nao
+7,Pedro Gomes,25,Masculino,Fratura Exposta,Sim
+8,Lucas Ferreira,M,55,Masculino,Câncer,Nao
+9,Beatriz Santos,38,Feminino,Asma,Sim
+10,José Oliveira,60,Masculino,Infarto,Nao
+11,Laura Martins,44,Feminino,Gripe,Sim
+12,Fernando Rodrigues,72,Masculino,Alzheimer,Nao
+13,Sofia Carvalho,30,Feminino,Hipertensão,Sim
+14,André Pinto,52,Masculino,Insuficiência Renal,Nao
+15,Paulo Ramos,35,Masculino,Pneumonia,Nao
+16,Renata Nunes,27,Feminino,Apêndicite,Sim
+17,Guilherme Barbosa,63,Masculino,Diabetes,Nao
+18,Aline Rocha,48,Feminino,Artrite,Nao
+19,Marcelo Costa,53,Masculino,Fratura Simples,Sim
+20,Carla Mendes,37,Feminino,Infecção Urinária,Sim

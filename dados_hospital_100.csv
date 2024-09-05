@@ -1,0 +1,92 @@
+nome,idade,genero,diagnostico,alta
+Maria,32,Feminino,Gripe,Nao
+João,45,Masculino,Covid,S
+Ana,28,Feminino,Fratura,Nao
+Pedro,50,Masculino,Diabetes,Nao
+Luísa,41,Feminino,Enxaqueca,Nao
+Carlos,37,Masculino,Resfriado,S
+Fernanda,55,Feminino,Artrite,Nao
+Lucas,60,Masculino,Infecção,Nao
+Juliana,29,Feminino,Febre,Nao
+Rafael,42,Masculino,Pressão Alta,Nao
+Beatriz,38,Feminino,Asma,Nao
+Bruno,27,Masculino,Resfriado,S
+Paula,48,Feminino,Anemia,Nao
+Fábio,51,Masculino,Colesterol Alto,Nao
+Isabela,34,Feminino,Sinusite,Nao
+Tiago,46,Masculino,Obesidade,Nao
+Mariana,31,Feminino,Diabetes,Nao
+Gabriel,40,Masculino,Fratura,Nao
+Juliana,33,Feminino,Enxaqueca,S
+Daniel,52,Masculino,Infecção,Nao
+Sofia,44,Feminino,Covid,S
+Miguel,39,Masculino,Resfriado,Nao
+Claudia,26,Feminino,Gripe,Nao
+Eduardo,49,Masculino,Pressão Alta,S
+Camila,35,Feminino,Artrite,Nao
+Felipe,53,Masculino,Diabetes,Nao
+Patrícia,59,Feminino,Colesterol Alto,Nao
+Ricardo,47,Masculino,Febre,Nao
+Larissa,30,Feminino,Asma,Nao
+Jorge,57,Masculino,Fratura,S
+Vanessa,43,Feminino,Infecção,Nao
+Mário,25,Masculino,Enxaqueca,Nao
+Aline,56,Feminino,Resfriado,Nao
+Marcelo,64,Masculino,Diabetes,Nao
+Fernanda,50,Feminino,Gripe,Nao
+Thiago,28,Masculino,Infecção,S
+Tatiane,45,Feminino,Pressão Alta,Nao
+Roberto,62,Masculino,Artrite,Nao
+Lúcia,52,Feminino,Fratura,Nao
+Rogério,41,Masculino,Colesterol Alto,S
+Marcos,29,Feminino,Diabetes,Nao
+Alice,53,Feminino,Enxaqueca,Nao
+André,58,Masculino,Resfriado,Nao
+Débora,34,Feminino,Asma,Nao
+Gustavo,46,Masculino,Febre,S
+Nathália,31,Feminino,Artrite,Nao
+Ricardo,49,Masculino,Infecção,Nao
+Lívia,39,Feminino,Diabetes,S
+Vitor,55,Masculino,Pressão Alta,Nao
+Cristina,28,Feminino,Colesterol Alto,Nao
+Bruno,43,Masculino,Fratura,S
+Joana,60,Feminino,Resfriado,Nao
+Carlos,32,Masculino,Infecção,Nao
+Amanda,44,Feminino,Enxaqueca,S
+Roberta,54,Feminino,Febre,Nao
+Thiago,37,Masculino,Asma,Nao
+Monique,26,Feminino,Gripe,Nao
+Rafael,40,Masculino,Diabetes,S
+Larissa,46,Feminino,Infecção,Nao
+Felipe,33,Masculino,Colesterol Alto,Nao
+Isadora,31,Feminino,Fratura,Nao
+Júlio,38,Masculino,Resfriado,S
+Patrícia,49,Feminino,Artrite,Nao
+Aline,52,Feminino,Diabetes,Nao
+Lucas,42,Masculino,Infecção,S
+Mariana,57,Feminino,Pressão Alta,Nao
+Ricardo,61,Masculino,Enxaqueca,Nao
+Giovana,29,Feminino,Asma,Nao
+Mário,50,Masculino,Fratura,S
+Gisele,48,Feminino,Resfriado,Nao
+João,36,Masculino,Diabetes,Nao
+Luana,43,Feminino,Febre,S
+Carlos,51,Masculino,Infecção,Nao
+Laura,38,Feminino,Artrite,Nao
+Felipe,45,Masculino,Colesterol Alto,Nao
+Renata,55,Feminino,Resfriado,S
+Eduardo,59,Masculino,Diabetes,Nao
+Nathália,32,Feminino,Fratura,Nao
+Thiago,41,Masculino,Enxaqueca,S
+Tatiane,29,Feminino,Asma,Nao
+Marcos,34,Masculino,Pressão Alta,Nao
+Juliana,52,Feminino,Infecção,Nao
+Roberto,47,Masculino,Febre,S
+Daniela,40,Feminino,Diabetes,Nao
+Camila,37,Feminino,Resfriado,Nao
+Jorge,53,Masculino,Artrite,Nao
+Fabiana,28,Feminino,Infecção,Nao
+Rogério,44,Masculino,Enxaqueca,S
+Vanessa,46,Feminino,Fratura,Nao
+Lúcio,39,Masculino,Asma,Nao
+Mônica,50,Feminino,Diabetes,Nao
