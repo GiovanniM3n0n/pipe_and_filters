@@ -1,6 +1,11 @@
 import csv
+import os
 from loguru import logger
 import time
+
+output_dir = "result"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
 class Pipe:
     def __init__(self):
@@ -56,8 +61,8 @@ class AgeFilter:
         logger.info(f"Registros após o filtro de idade: {len(filtered_data)}. Tempo de aplicação do filtro: {duration:.4f} segundos. Throughput: {throughput:.2f} registros/segundo.")
 
 class CSVWriterFilter:
-    def __init__(self, output_file_path):
-        self.output_file_path = output_file_path
+    def __init__(self, output_file_name):
+        self.output_file_path = os.path.join(output_dir, output_file_name)
 
     def process(self, pipe):
         data = pipe.get_data()
@@ -76,14 +81,14 @@ class CSVWriterFilter:
         throughput = len(data) / duration if duration > 0 else float('inf')
         logger.info(f"Dados filtrados foram salvos em {self.output_file_path}. Tempo de salvamento: {duration:.4f} segundos. Throughput: {throughput:.2f} registros/segundo.")
 
-def process_csv(file_path, output_file_path):
+def process_csv(file_path, output_file_name):
     start_time = time.time()
     
     pipe = Pipe()
     reader = CSVReaderFilter(file_path)
     alta_filter = AltaFilter()
     age_filter = AgeFilter(min_age=40)
-    writer = CSVWriterFilter(output_file_path)
+    writer = CSVWriterFilter(output_file_name)
     
     reader.process(pipe)
     alta_filter.process(pipe)
@@ -95,10 +100,10 @@ def process_csv(file_path, output_file_path):
     logger.info(f"Tempo total de execução do pipeline para {file_path}: {end_time - start_time:.4f} segundos. Throughput total: {total_throughput:.2f} registros/segundo.")
 
 def pipe_and_filter_example():
-    # Processa o primeiro arquivo CSV
+    # Processa o primeiro arquivo CSV e salva dentro da pasta "result"
     process_csv('dados_hospital.csv', 'dados_hospital_resultado.csv')
 
-    # Processa o segundo arquivo CSV
+    # Processa o segundo arquivo CSV e salva dentro da pasta "result"
     process_csv('dados_hospital_100.csv', 'dados_hospital_resultado1.csv')
 
 if __name__ == "__main__":
